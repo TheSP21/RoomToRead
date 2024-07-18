@@ -1,0 +1,33 @@
+.footer {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  width: 100vw;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 1rem;
+}
+
+.footer-section h4 {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section a {
+  display: inline-block;
+  margin: 0.5rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem; /* Adjust the size of the icons as needed */
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,171 @@
+/* home.css */
+
+.home {
+  margin: 0;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: black;
+  color: #fff;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensures the navbar stays above other content */
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-item {
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+.homelogo{
+  width: 40px;
+  margin-left: 1%;
+}
+
+.companyname{
+  margin-left: 5%;
+  color: white;
+  position: absolute;
+  font-weight: bold;
+  font-size:larger;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+}
+
+.image-section {
+  background-image: url("https://i.pinimg.com/originals/36/a0/85/36a085785eabcc6add04d35e8c97be37.jpg");
+  background-size: cover;
+  background-position: center;
+ /* background-size: contain; /* Use 'contain' to maintain the image's aspect ratio */
+  background-repeat: no-repeat; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1050px; /* Adjusted to fill the container height */
+  width: 100%;
+  position: relative; /* Ensure the buttons are positioned relative to this container */
+}
+
+.button-container {
+  position: absolute;
+  top: 50%; /* Align to the center vertically */
+  left: 50%; /* Align to the center horizontally */
+  transform: translate(-50%, -50%); /* Center the container itself */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.counter-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.counter-box {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  flex: 1;
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Adjust as needed */
+  height: 200px; /* Make the counter box square */
+}
+
+.counter-label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.counter-item {
+  font-size: 2rem;
+  margin: 0;
+  animation: countdown 1s ease-in-out infinite alternate;
+}
+
+@keyframes countdown {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+}
+
+.footer-section h4 {
+  margin-bottom: 1rem;
+}
+
+.footer-section p {
+  margin: 0.5rem 0;
+}
+
+.footer-section a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin: 0.5rem 0;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}

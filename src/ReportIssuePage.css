@@ -1,0 +1,76 @@
+.complaint-container {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    padding: 20px;
+    /*border: 1px solid #ccc;
+    /*border-radius: 10px;*/
+    background-color:white;
+    background-image: url(https://cdn.pixabay.com/photo/2021/12/09/20/43/orange-background-6859059_1280.jpg);
+    box-shadow: 0 0 10px rgba(0, 0, 0);
+    align-items: center;
+  }
+  
+  h1{
+    color: black;
+    font-size: medium;
+  }
+
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: larger;
+    font-weight: bold;
+  }
+  
+  .complaint-form {
+    display: flex;
+    flex-direction: column;
+    border-width: 5px;
+    border-color: black;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 100px;
+    background-color: rgb(255,255,255,0.5);
+  }
+  
+  .complaint-form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .complaint-form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 15px;
+   /* border: 1px solid #ccc;*/
+    border-radius: 5px;
+    width: 50%;
+    align-self: center;
+    height: 150px;
+  }
+  
+  .complaint-form input[type="file"] {
+    margin-bottom: 15px;
+    width: 50%;
+    align-self: center;
+  }
+  
+  .complaint-form button {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:blue;
+    color: white;
+    cursor: pointer;
+    align-self: center;
+    margin-bottom: 10px;
+  }
+  
+  .complaint-form button:hover {
+    background-color: #45a049;
+  }
+  
